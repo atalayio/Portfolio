@@ -2,7 +2,7 @@ exports.id = 859;
 exports.ids = [859];
 exports.modules = {
 
-/***/ 2940:
+/***/ 7248:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -871,7 +871,7 @@ function prettyBytes(number, options) {
 /***/ 6859:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__(2940)
+module.exports = __webpack_require__(7248)
 
 
 /***/ })

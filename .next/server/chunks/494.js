@@ -2,7 +2,7 @@ exports.id = 494;
 exports.ids = [494];
 exports.modules = {
 
-/***/ 5677:
+/***/ 1233:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -142,7 +142,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 5152:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__(5677)
+module.exports = __webpack_require__(1233)
 
 
 /***/ })

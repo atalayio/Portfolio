@@ -7,7 +7,7 @@
     "build": "next build",
     "prettier": "prettier -write .",
     "lint": "next lint",
-	"start": "next start"
+    "start": "next start"
   },
   "keywords": [],
   "author": "Atalay",
@@ -31,6 +31,7 @@
     "react-slick": "^0.29.0"
   },
   "devDependencies": {
+    "@types/react": "18.2.12",
     "eslint": "^8.42.0",
     "eslint-config-next": "^13.4.5",
     "prettier": "^2.8.8"

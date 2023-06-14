@@ -5,7 +5,7 @@ exports.id = 820;
 exports.ids = [820];
 exports.modules = {
 
-/***/ 3499:
+/***/ 8476:
 /***/ ((module, exports, __webpack_require__) => {
 
 
@@ -20,7 +20,7 @@ Object.defineProperty(exports, "default", ({
 }));
 const _interop_require_default = __webpack_require__(167);
 const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(6689));
-const _head = /*#__PURE__*/ _interop_require_default._(__webpack_require__(2636));
+const _head = /*#__PURE__*/ _interop_require_default._(__webpack_require__(8044));
 const statusCodes = {
     400: "Bad Request",
     404: "This page could not be found",
@@ -183,7 +183,7 @@ function _interop_require_default(obj) {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [636], () => (__webpack_exec__(3499)));
+var __webpack_exports__ = __webpack_require__.X(0, [44], () => (__webpack_exec__(8476)));
 module.exports = __webpack_exports__;
 
 })();
