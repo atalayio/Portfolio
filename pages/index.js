@@ -99,7 +99,7 @@ const Page = () => {
                             alignItems: "center"
                     }} >
                         <Image src="https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
-                        <h4 style={{marginRight: 85}} >Three.js</h4>
+                        <h4>Three.js</h4>
                     </div>
                     <div className="item" style={{
                             display: "flex",
