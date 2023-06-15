@@ -8,6 +8,7 @@ export default class Document extends NextDocument {
         return (
             <Html lang="en">
                 <Head />
+                <link rel="icon" href="/favicon.ico" sizes="32x32" />
                 <body>
                     <ColorModeScript initialColorMode={theme.config.initialColorMode}/>
                     <Main />
@@ -17,3 +18,4 @@ export default class Document extends NextDocument {
         )
     }
 }
+
