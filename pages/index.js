@@ -80,7 +80,7 @@ const Page = () => {
                             justifyContent: "center",
                             alignItems: "center"
                     }} >
-                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" height={175} borderRadius={12} />
+                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"   style={{ aspectRatio: 1, borderRadius: 12}} />
                         <p>React.js</p>
                     </div>
                     <div className="item" style={{
@@ -89,7 +89,7 @@ const Page = () => {
                             justifyContent: "center",
                             alignItems: "center"
                     }} >
-                        <Image src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png"  height={175} borderRadius={12} />
+                        <Image src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
                         <h4>Next.js</h4>
                     </div>
                     <div className="item" style={{
@@ -98,7 +98,7 @@ const Page = () => {
                             justifyContent: "center",
                             alignItems: "center"
                     }} >
-                        <Image src="https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png"  height={175} borderRadius={12} />
+                        <Image src="https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
                         <h4 style={{marginRight: 85}} >Three.js</h4>
                     </div>
                     <div className="item" style={{
@@ -107,7 +107,7 @@ const Page = () => {
                             justifyContent: "center",
                             alignItems: "center"
                     }} >
-                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"  height={175} borderRadius={12} />
+                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style={{ aspectRatio: 1, borderRadius: 12}} />
                         <h4>React Native</h4>
                     </div>
                     <div className="item" style={{
@@ -116,7 +116,7 @@ const Page = () => {
                             justifyContent: "center",
                             alignItems: "center"
                     }} >
-                        <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"  height={175} borderRadius={12} />
+                        <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" style={{ aspectRatio: 1, borderRadius: 12}} />
                         <h4>Node.js</h4>
                     </div>
                     <div className="item" style={{
@@ -125,7 +125,7 @@ const Page = () => {
                             justifyContent: "center",
                             alignItems: "center"
                     }} >
-                        <Image src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"  height={175} borderRadius={12} />
+                        <Image src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"  style={{ aspectRatio: 1, borderRadius: 12}} />
                         <h4>ChakraUI</h4>
                     </div>
                     <div className="item" style={{
@@ -135,7 +135,7 @@ const Page = () => {
                             alignItems: "center"
                             
                     }} >
-                        <Image src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"  height={175} borderRadius={12} />
+                        <Image src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
                         <h4>Express.js</h4>
                     </div>
                     <div className="item" style={{
@@ -144,7 +144,7 @@ const Page = () => {
                             justifyContent: "center",
                             alignItems: "center"
                     }} >
-                        <Image src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"  height={175} borderRadius={12} />
+                        <Image src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
                         <h4>MongoDB</h4>
                     </div>
                 </OwlCarousel>
