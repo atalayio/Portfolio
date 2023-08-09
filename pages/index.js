@@ -22,7 +22,7 @@ import {
 
 const Page = () => {
     return (
-        
+
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 Hello, I&apos;m a junior full-stack mobile developer!
@@ -47,7 +47,7 @@ const Page = () => {
                 <Box align="center" my={4} >
                     <NextLink href="/">
                         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" >
-                            My Blog/Posts 
+                            My Blog/Posts
                             Coming Soon...
                         </Button>
                     </NextLink>
@@ -67,11 +67,14 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2022</BioYear>
-                    Started working as a Quality Assurance Specialist at <Link href="https://www.nyctophilestudios.com/" target="_blank" title="deneme">Nyctophile Studios</Link>
+                    Started working as a Quality Assurance Specialist at <Link href="https://www.nyctophilestudios.com/" target="_blank" >Nyctophile Studios</Link>
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
-                    Started working as a Front-end Developer at <Link href="https://www.acekaholding.com.tr/" target="_blank" title="deneme">Aceka Holding A.Ş</Link>
+                    Started working as a Front-end Developer at{" "}
+                    <Link href="https://www.acekaholding.com.tr/" target="_blank">
+                        Aceka Holding A.Ş
+                    </Link>
                 </BioSection>
             </Section>
             <Section delay={0.3}>
@@ -80,76 +83,76 @@ const Page = () => {
                 </Heading>
                 <OwlCarousel responsive={Responsive} loop="true" autoplay={true} autoplayTimeout={3000} >
                     <div className="item" style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
                     }} >
-                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"   style={{ aspectRatio: 1, borderRadius: 12}} />
+                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style={{ aspectRatio: 1, borderRadius: 12 }} />
                         <p>React.js</p>
                     </div>
                     <div className="item" style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
                     }} >
-                        <Image src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
+                        <Image src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" style={{ aspectRatio: 1, borderRadius: 12 }} />
                         <h4>Next.js</h4>
                     </div>
                     <div className="item" style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
                     }} >
-                        <Image src="https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
-                        <h4 style={{marginRight: 75}} >Three.js</h4>
+                        <Image src="https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/e/e4f86d2200d2d35c30f7b1494e96b9595ebc2751.png" style={{ aspectRatio: 1, borderRadius: 12 }} />
+                        <h4 style={{ marginRight: 75 }} >Three.js</h4>
                     </div>
                     <div className="item" style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
                     }} >
-                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style={{ aspectRatio: 1, borderRadius: 12}} />
+                        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style={{ aspectRatio: 1, borderRadius: 12 }} />
                         <h4>React Native</h4>
                     </div>
                     <div className="item" style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
                     }} >
-                        <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" style={{ aspectRatio: 1, borderRadius: 12}} />
+                        <Image src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" style={{ aspectRatio: 1, borderRadius: 12 }} />
                         <h4>Node.js</h4>
                     </div>
                     <div className="item" style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
                     }} >
-                        <Image src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS"  style={{ aspectRatio: 1, borderRadius: 12}} />
+                        <Image src="https://media.graphassets.com/91q3gAEGSh6HCrpnPgxS" style={{ aspectRatio: 1, borderRadius: 12 }} />
                         <h4>ChakraUI</h4>
                     </div>
                     <div className="item" style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
-                            
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
+
                     }} >
-                        <Image src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
+                        <Image src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" style={{ aspectRatio: 1, borderRadius: 12 }} />
                         <h4>Express.js</h4>
                     </div>
                     <div className="item" style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyContent: "center",
-                            alignItems: "center"
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center"
                     }} >
-                        <Image src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"  style={{ aspectRatio: 1, borderRadius: 12}} />
+                        <Image src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png" style={{ aspectRatio: 1, borderRadius: 12 }} />
                         <h4>MongoDB</h4>
                     </div>
                 </OwlCarousel>
@@ -214,7 +217,7 @@ const Page = () => {
                 </List>
             </Section>
         </Container>
-        
+
     )
 }
 
