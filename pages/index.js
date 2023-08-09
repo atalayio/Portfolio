@@ -71,7 +71,7 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2023</BioYear>
-                    Started working as a Front-end Developer at{" "}
+                    Started working as a Front-end Developer at <br />
                     <Link href="https://www.acekaholding.com.tr/" target="_blank">
                         Aceka Holding A.Ş
                     </Link>
