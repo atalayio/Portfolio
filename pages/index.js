@@ -69,6 +69,10 @@ const Page = () => {
                     <BioYear>2022</BioYear>
                     Started working as a Quality Assurance Specialist at <Link href="https://www.nyctophilestudios.com/" target="_blank" title="deneme">Nyctophile Studios</Link>
                 </BioSection>
+                <BioSection>
+                    <BioYear>2023</BioYear>
+                    Started working as a Front-end Developer at <Link href="https://www.acekaholding.com.tr/" target="_blank" title="deneme">Aceka Holding A.Ş</Link>
+                </BioSection>
             </Section>
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">
@@ -210,6 +214,7 @@ const Page = () => {
                 </List>
             </Section>
         </Container>
+        
     )
 }
 
