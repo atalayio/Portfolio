@@ -8,7 +8,7 @@ import { TechStackSection, TechStackIcon, TechStackText } from "../components/te
 import { FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
 import { SiNextdotjs, SiExpress } from 'react-icons/si'
 import { TbBrandThreejs } from 'react-icons/tb'
-import { IoLogoGithub, IoLogoDiscord, IoLogoInstagram } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoDiscord, IoLogoInstagram, IoMailOutline } from 'react-icons/io5'
 import { OwlCarousel, Responsive } from '../components/slider'
 import Fonts from "../components/fonts"
 import {
@@ -25,7 +25,7 @@ const Page = () => {
 
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                Hello, I&apos;m a junior full-stack mobile developer!
+                Hello, I&apos;m a full-stack mobile/web developer!
             </Box>
             <Box display={{ md: 'flex' }}>
                 <Box flexGrow={1}>
@@ -209,6 +209,17 @@ const Page = () => {
                                 variant="ghost"
                                 colorScheme="teal"
                                 leftIcon={<IoLogoInstagram />}
+                            >
+                                @atalayio
+                            </Button>
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href="mailto:emin.atalay@acekaholding.com.tr" target="_blank">
+                            <Button
+                                variant="ghost"
+                                colorScheme="teal"
+                                leftIcon={<IoMailOutline />}
                             >
                                 @atalayio
                             </Button>
