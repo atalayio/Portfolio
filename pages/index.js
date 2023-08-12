@@ -221,7 +221,7 @@ const Page = () => {
                                 colorScheme="teal"
                                 leftIcon={<IoMailOutline />}
                             >
-                                @atalayio
+                                @Emin Atalay
                             </Button>
                         </Link>
                     </ListItem>
